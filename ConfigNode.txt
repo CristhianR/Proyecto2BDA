@@ -1,0 +1,14 @@
+
+Instalación de dependencias para el server:
+
+npm init -y
+npm i --save-dev babel-cli babel-preset-env
+npm i --save-dev babel-watch
+npm i express
+npm i mongoose
+npm i cors
+
+para correr el servidor usen:
+
+npm run dev
+
