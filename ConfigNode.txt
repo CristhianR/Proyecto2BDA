@@ -8,7 +8,11 @@ npm i express
 npm i mongoose
 npm i cors
 
-para correr el servidor usen:
+Dentro del package.json agregar dentro de "scripts", debajo de "test" la siguiente línea de código:
+
+"dev": "babel-watch server.js"
+
+Para correr el servidor usen:
 
 npm run dev
 
